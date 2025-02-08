@@ -105,7 +105,9 @@ navbar {
 /* ABOUT */
 
 .about {
-    margin: 5%;
+    margin-inline: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .about h1 {
@@ -128,8 +130,8 @@ navbar {
 }
 
 .admin-photo:hover {
-    transition: all 0.5s;
     transform: scale(1.1);
+    transition: all 0.5s;
     box-shadow: 0 0 10px black;
 }
 
@@ -149,3 +151,179 @@ navbar {
 
 /* PROJECTS */
 
+.project {
+    margin-inline: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.project h1 {
+    font-size: 2.5rem;
+}
+
+
+.project img {
+    width: 25%;
+    z-index: 2;
+}
+
+.project-content-venti {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+
+
+.content-bg {
+    position: absolute;
+    background-color: rgba(15, 9, 9, 0.5);
+    background-size: cover;
+    background-position: center;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    padding-top: 10rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.project-result-venti {
+    position: absolute;
+    background-image:url(../assets/Screenshot_2025-02-08_145703.png);
+    background-position: center;
+    background-size: cover;
+    padding-inline: 35%;
+    background-repeat: none;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.project h2 {
+    text-shadow: 0 0 10px black;
+}
+
+.btn-project {
+    display: none;
+}
+
+.project-content-venti:hover .content-bg {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    background-color: rgba(15, 9, 9, 0.7);
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+.project-content-venti:hover .project-result-venti {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    background-color: rgba(15, 9, 9, 0.7);
+    padding-top: 12rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.project-content-venti:hover h2 {
+    font-size: 0;
+}
+
+.project-content-venti:hover .btn-project {
+    display: inline;
+    bottom: 50%;
+    transform: translateY(1rem);
+    transition: all 0.5s;
+}
+.project-content-venti:hover .project-result-inazuma {
+    filter:blur(20px);
+}
+
+.project-content-inazuma {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+
+
+.content-bg-inazuma {
+    position: absolute;
+    background-color: rgba(15, 9, 9, 0.5);
+    background-size: cover;
+    background-position: center;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    padding-top: 10rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.project-result-inazuma {
+    position: absolute;
+    background-image:url(../assets/Screenshot_2025-02-08_150124.png);
+    background-position: center;
+    background-size: cover;
+    padding-inline: 35%;
+    background-repeat: none;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.project h2 {
+    text-shadow: 0 0 10px black;
+}
+
+.btn-project {
+    display: none;
+}
+
+.project-content-inazuma:hover .content-bg-inazuma {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    background-color: rgba(15, 9, 9, 0.7);
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+.project-content-inazuma:hover .project-result-inazuma {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    background-color: rgba(15, 9, 9, 0.7);
+    padding-top: 12rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.project-content-inazuma:hover h2 {
+    font-size: 0;
+}
+
+.project-content-inazuma:hover .btn-project {
+    display: inline;
+    bottom: 50%;
+    transform: translateY(1rem);
+    transition: all 0.5s;
+}
+
+
+.btn-project {
+    background-color: white;
+    border-radius:50px;
+    border: none;
+    padding-block: 0.4rem;
+    padding-inline: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    z-index: 11;
+    
+}
+
+.btn-project a {
+    color: black;
+    text-decoration: none;
+}
